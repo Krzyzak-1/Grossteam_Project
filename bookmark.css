@@ -1,0 +1,83 @@
+
+
+.bookmark {
+    background-size: cover;
+    background-position: center center;
+    font-size: 30px;
+    text-align: center;
+    padding: 8vh 5vw;
+    position:relative;
+    color: white;
+    z-index: 0;
+    font-family: sans-serif;
+
+ 
+}
+
+.bookmark__localization
+{
+   background-image: url("picture/1.png");
+}
+
+.bookmark__gallery
+{
+   background-image: url("picture/gallery/3.jpeg");
+}
+
+.bookmark__path
+{
+   background-image: url("picture/7.jpg");
+}
+
+.bookmark__map
+{
+    background-image: url("picture/gallery/1.png");
+}
+
+.bookmark::after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.699);
+    z-index: -1;
+}
+.bookmark__header
+{
+    font-size: 100px;
+    text-transform: uppercase;
+  margin: 0;
+   
+}
+
+
+
+
+@media (max-width:767px)
+{
+    .bookmark__header{
+        font-size: 10vw;
+    }
+}
+
+.bookmark__header::before,
+.bookmark__header::after{
+    content: "-";
+    font-weight: normal;
+}
+
+.bookmark__paragraph
+{
+    font-size: 24px;
+  
+}
+
+@media (max-width:1199px)
+{
+    .bookmark__paragraph{
+        font-size: 16px;
+    }
+}
