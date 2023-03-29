@@ -46,6 +46,10 @@
 
 }
 
+.gallery-link
+{
+    text-decoration: none;
+}
 
 .project-header{
 
@@ -181,6 +185,7 @@
 {
     background-color: rgba(0, 0, 0, 0.683);
     opacity: 100%;
+    top: 60%;
  
   
 }
@@ -205,13 +210,8 @@
 
    .gallery-item__button
    {
-       background-color: rgba(0, 0, 0, 0.683);
-       padding: 30px, 50px;
-       opacity: 0;
-       font-size: 20px;
-       width: 300px;
-       height: 50px;
-     
+      
+       top: 60%;
     
      
    }
@@ -230,7 +230,23 @@
     padding-top: calc(100% * 9 / 14);
   
 
-
    }
+
+   .gallery-item__button
+   {
+      
+       top: 47%;
+       left: 30%;
+    
+     
+   }
+
+   .gallery-item_paragraph {
+
+    top: 6%;
+  
 }
-*/
+.project-header{
+   top: 40px;
+}
+}
