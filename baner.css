@@ -47,6 +47,18 @@
 
   }
 
+
+
+
+  @media (max-width:416px)
+{
+  .banner__button
+  {
+    font-size: 18px;
+    padding: 10px 15px;
+    
+
+  }
 }
 
 
